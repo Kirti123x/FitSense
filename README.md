@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1Ls0FAv5JebqE4EvqgNlM8GYySXAoSteo/view?usp=drive
 
 The body measurement microservice runs locally.
 
-FitSense is a full-stack AI-powered fashion shopping platform that helps users choose the right clothing with confidence. It features an AI shopping assistant, real-time body measurement from live camera input, personalized size recommendations, and an interactive fit visualization built with React, FastAPI, MediaPipe, and SQLite.
+FitSense is a full-stack AI-powered fashion shopping platform that helps users choose the right clothing with confidence. It features an AI shopping assistant, real-time body measurement from live camera input, and an interactive fit visualization built with React, FastAPI, MediaPipe, and SQLite.
 
 To maintain a modular architecture, the body measurement pipeline is separated into an independent FastAPI microservice (`measurement-service/`). This allows the lightweight backend and the computer vision pipeline to be developed, deployed, and scaled independently.
 
