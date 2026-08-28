@@ -65,8 +65,6 @@ dependency) — it needs internet access the first time it's used per browser
 session; after that it's cached. If the CDN is unreachable, photo capture
 still works fine, it just won't show the live skeleton.
 
-With all three pieces running, you'll have 3 terminals open at once:
-measurement-service (port 9001), backend (port 8000), frontend (port 5173).
 
 ## 4. Wiring in the measurement pipeline
 
